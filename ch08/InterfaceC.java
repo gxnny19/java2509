@@ -1,5 +1,5 @@
 package ch08;
 
-public interface InterfaceC extends InterfaceA, InterfaceB{
+public interface InterfaceC extends InterfaceB{
 	void methodC();
 }

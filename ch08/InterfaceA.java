@@ -1,5 +1,5 @@
 package ch08;
 
-public interface InterfaceA {
+public sealed interface InterfaceA permits InterfaceB{
 	void methodA();
 }

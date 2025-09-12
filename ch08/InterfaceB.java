@@ -1,5 +1,5 @@
 package ch08;
 
-public interface InterfaceB {
+public non-sealed interface InterfaceB extends InterfaceA{
 	void methodB();
 }
