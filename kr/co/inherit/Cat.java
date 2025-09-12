@@ -10,7 +10,7 @@ public class Cat extends Animal {
 	}
 
 	public void climb() {
-		System.out.println("점프점프");
+		System.out.println(name + "^^점프점프");
 		
 	}
 	
@@ -24,5 +24,10 @@ public class Cat extends Animal {
 	public void displayInfo() {
 		super.displayInfo();
 		System.out.println("실내묘: " + (isIndoor ? "예" : "아니오"));
+	}
+	
+	@Override
+	public void makeSound() {
+		System.out.println(name + " 야옹");
 	}
 }

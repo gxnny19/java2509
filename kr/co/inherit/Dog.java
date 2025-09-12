@@ -11,7 +11,7 @@ public class Dog extends Animal {
 	
 	
 	public void wagTail() {
-		System.out.println("꼬리를 흔든다");
+		System.out.println(name + " ~~꼬리 흔들");
 		
 	}
 	
@@ -29,11 +29,10 @@ public class Dog extends Animal {
 	
 	@Override
 	public void makeSound() {
-		super.makeSound();
-		System.out.println();
+//		super.makeSound();
+		System.out.println(name + " 멍멍");
 	}
 	
-
 
 	
 }

@@ -1,6 +1,7 @@
 package kr.co.inherit;
 
 import kr.co.interf.InterfaceClass;
+import kr.co.poly.PolymorphismClass;
 
 
 public class ExClass {
@@ -17,7 +18,10 @@ public class ExClass {
 //		AbstractClass abstractClass = new AbstractClass();
 		
 //		인터페이스 연습
-		InterfaceClass interfaceClass = new InterfaceClass();
+//		InterfaceClass interfaceClass = new InterfaceClass();
+		
+//		다형성 연습
+		PolymorphismClass polymorphismClass = new PolymorphismClass();
 	}
 
 }
