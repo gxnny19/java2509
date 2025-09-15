@@ -1,5 +1,8 @@
 package kr.co.interf;
 
+import kr.co.ext.Bird;
+import kr.co.ext.Duck;
+
 public class InterfaceClass {
 	
 	public InterfaceClass() {
